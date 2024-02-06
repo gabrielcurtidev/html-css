@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.especial::after {
+    color: rgb(248, 199, 199);
+    content: ' [especial] ';
+    font-weight: none;
+}
+
+.especial {
+    background-color: rgb(248, 162, 162);
+}
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
